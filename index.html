@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Define o idioma como português do Brasil -->
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolioHUB - Eduardo Reis</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"> <!-- Permite usar acentos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade (celular) -->
+  <title>portfolioHUB - Eduardo Reis</title> <!-- Nome da aba -->
+  <link rel="stylesheet" href="style.css"> <!-- Conecta o CSS -->
 </head>
+
 <body>
 
+  <!-- TOPO DO SITE -->
   <header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
     <nav>
-      <h1>portfolioHUB</h1>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
+      <h1>portfolioHUB</h1> <!-- Nome/logo do site -->
+
+      <ul> <!-- Lista de links -->
+        <li><a href="#sobre">Sobre</a></li> <!-- Vai para seção Sobre -->
         <li><a href="#curriculo">Currículo</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -20,97 +26,123 @@
       </ul>
     </nav>
 
+    <!-- SEÇÃO PRINCIPAL (HERO) -->
     <section class="hero">
+
+      <!-- TEXTO PRINCIPAL -->
       <div class="hero-texto">
-        <h2>Eduardo Reis</h2>
-        <p>Estudante universitário em constante desenvolvimento acadêmico e profissional.</p>
-        <a href="#contato" class="botao">Fale comigo</a>
+        <h2>Eduardo César</h2> <!-- nome -->
+        <p>Estudante universitário em constante desenvolvimento acadêmico e profissional.</p> <!-- Descrição -->
+        <a href="#contato" class="botao">Fale comigo</a> <!-- Botão que leva ao contato -->
       </div>
+
+      <!-- FOTO -->
       <div class="hero-foto">
-        <img src="foto.jpg" alt="Foto de Eduardo Reis">
+        <img src="image.png" alt="Foto de Eduardo Reis"> <!-- Imagem -->
       </div>
+
     </section>
   </header>
 
+  <!-- CONTEÚDO PRINCIPAL -->
   <main>
+
+    <!-- SOBRE MIM -->
     <section id="sobre" class="secao">
       <h2>Sobre Mim</h2>
       <p>
+        <!-- Texto explicando  -->
         Sou estudante universitário em constante desenvolvimento acadêmico e profissional,
         com interesse em ampliar meus conhecimentos, desenvolver novas habilidades e construir
-        uma trajetória sólida no mercado de trabalho. Busco oportunidades que me permitam
-        aplicar na prática o que aprendo durante a graduação, contribuindo com dedicação,
-        responsabilidade e vontade de aprender.
+        uma trajetória sólida no mercado de trabalho.
       </p>
     </section>
 
+    <!-- CURRÍCULO -->
     <section id="curriculo" class="secao">
       <h2>Currículo</h2>
+
+      <!-- Formação -->
       <h3>Formação Acadêmica</h3>
-      <p>Ensino Superior em andamento - Ciencias da Computação </p>
+      <p>Ensino Superior em andamento - Ciencias da Computação</p>
 
+      <!-- Experiência -->
       <h3>Experiências</h3>
-      <p>Anvisa-Auxiliar administrativo </p>
+      <p>Anvisa-Auxiliar administrativo</p>
 
+      <!-- Idiomas -->
       <h3>Idiomas</h3>
       <p>Português (nativo) | Inglês intermediário</p>
 
+      <!-- Certificações -->
       <h3>Certificações</h3>
       <p>
-  Frontend:
-  JavaScript (ES6+),TypeScript, HTML5, CSS3, SCSS, Angular
-        
-  Integração:
-   REST APIs
-        
-  Controle de versão:
-   Git, GitFlow
-
-</p>
+        Frontend: JavaScript, TypeScript, HTML, CSS, Angular <br>
+        Integração: REST APIs <br>
+        Controle de versão: Git
+      </p>
     </section>
 
+    <!-- PROJETOS -->
     <section id="projetos" class="secao">
       <h2>Projetos</h2>
 
+      <!-- CARD DE PROJETO -->
       <div class="card">
         <h3>portfolioHUB</h3>
-        <p>
-          Desenvolvimento de um portfólio digital com o objetivo de apresentar minha trajetória
-          acadêmica, habilidades, competências e projetos realizados ao longo da graduação.
-        </p>
+        <p>Projeto do seu portfólio pessoal</p>
+      </div>
+
+      <!-- OUTROS PROJETOS -->
+      <div class="card">
+        <h3>Projeto Acadêmico</h3>
+        <p>Aplicação Angular com CRUD</p>
       </div>
 
       <div class="card">
         <h3>Projeto Acadêmico</h3>
-        <p>
-          - Aplicação Angular completa (SPA), com CRUD , navegação ,  formulários, acessibilidade, testes e RxJS.
-          - Calculadora Web Interativa
-          - Espaço de login com HTML e CSS
-        </p>
+        <p>Calculadora Web</p>
       </div>
+
+      <div class="card">
+        <h3>Projeto Acadêmico</h3>
+        <p>Login com HTML e CSS</p>
+      </div>
+
     </section>
 
+    <!-- HABILIDADES -->
     <section id="habilidades" class="secao">
       <h2>Habilidades e Competências</h2>
+
+      <!-- Lista de habilidades -->
       <ul class="skills">
         <li>Organização</li>
         <li>Comunicação</li>
         <li>Trabalho em equipe</li>
-        <li>Responsabilidade</li>
-        <li>Aprendizado contínuo</li>
-        <li>HTML básico</li>
-        <li>GitHub</li>
+        <li>HTML e CSS</li>
+        <li>JavaScript</li>
+        <li>Angular</li>
       </ul>
     </section>
 
+    <!-- CONTATO -->
     <section id="contato" class="secao">
       <h2>Contato</h2>
-      <p><strong>Email:</strong> seuemail@email.com</p>
-      <p><strong>LinkedIn:</strong> linkedin.com/in/seu-link</p>
+
+      <p><strong>Email:</strong> eduardo.reis200725@gmail.com</p>
+
+      <!-- Link clicável -->
+      <p><strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/">dudu</a>
+      </p>
+
       <p><strong>GitHub:</strong> github.com/eduardocreis-ceub</p>
     </section>
+
   </main>
 
+  <!-- RODAPÉ -->
   <footer>
     <p>© 2026 - Eduardo Reis | portfolioHUB</p>
   </footer>
